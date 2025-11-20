@@ -73,7 +73,7 @@ public class OrderServiceImpl implements OrderService {
         order.setOrderType(OrderType.BUY);
         Order savedOrder = orderRepository.save(order);
 
-        //create asset later
+        //create asset laterr
 
         return savedOrder;
     }
